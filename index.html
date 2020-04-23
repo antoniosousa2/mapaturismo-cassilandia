@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./resources/ol.css">
+        <link rel="stylesheet" type="text/css" href="resources/horsey.min.css">
+        <link rel="stylesheet" type="text/css" href="resources/ol3-search-layer.min.css">
+        <link rel="stylesheet" href="./resources/ol3-layerswitcher.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css">
+        <style>
+        .ol-geocoder.gcd-gl-container {
+            top: 135px!important;
+        }
+        .ol-geocoder .gcd-gl-btn {
+            width: 21px!important;
+            height: 21px!important;
+        }
+        </style>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+        <style>
+        html, body {
+            background-color: #ffffff;
+        }
+        </style>
+
+        <style>
+        .geolocate {
+            top: 100px;
+            left: .5em;
+        }
+        .ol-touch .geolocate {
+            top: 130px;
+        }
+        </style>
+    <link href="http://cdn.jsdelivr.net/openlayers.geocoder/latest/ol3-geocoder.min.css" rel="stylesheet">
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title>MAPA TURÍSTICO CASSIL</title>
+    </head>
+    <body>
+		<h4><center> MAPA TURÍSTICO DE CASSILÂNDIA-MS</center></h4>
+        <div id="map">
+            <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div>
+        </div>
+        <script src="resources/qgis2web_expressions.js"></script>
+        <script src="resources/polyfills.js"></script>
+        <script src="./resources/functions.js"></script>
+        <script src="./resources/ol-debug.js"></script>
+        <script src="http://cdn.polyfill.io/v2/polyfill.min.js?features=Element.prototype.classList,URL"></script>
+        <script src="resources/horsey.min.js"></script>
+        <script src="resources/ol3-search-layer.min.js"></script>
+        <script src="./resources/ol3-layerswitcher.js"></script>
+    <script src="http://cdn.jsdelivr.net/openlayers.geocoder/latest/ol3-geocoder.js"></script>
+        <script src="layers/CassilndiaPermetro_1.js"></script><script src="layers/CassilndiaQuadras_2.js"></script><script src="layers/Hidrogrfia_3.js"></script><script src="layers/Ruas_4.js"></script><script src="layers/Rodovia_5.js"></script><script src="layers/PontosTursticos_6.js"></script><script src="layers/Supermercados_7.js"></script><script src="layers/Estabelecimentosalimentcios_8.js"></script><script src="layers/Postodecombustvel_9.js"></script><script src="layers/Hotis_10.js"></script><script src="layers/Hospitais_11.js"></script><script src="layers/Farmcias_12.js"></script><script src="layers/Bancos_13.js"></script>
+        <script src="styles/CassilndiaPermetro_1_style.js"></script><script src="styles/CassilndiaQuadras_2_style.js"></script><script src="styles/Hidrogrfia_3_style.js"></script><script src="styles/Ruas_4_style.js"></script><script src="styles/Rodovia_5_style.js"></script><script src="styles/PontosTursticos_6_style.js"></script><script src="styles/Supermercados_7_style.js"></script><script src="styles/Estabelecimentosalimentcios_8_style.js"></script><script src="styles/Postodecombustvel_9_style.js"></script><script src="styles/Hotis_10_style.js"></script><script src="styles/Hospitais_11_style.js"></script><script src="styles/Farmcias_12_style.js"></script><script src="styles/Bancos_13_style.js"></script>
+        <script src="./layers/layers.js" type="text/javascript"></script> 
+        <script src="./resources/qgis2web.js"></script>
+        <script src="./resources/Autolinker.min.js"></script>
+    <img align="left" src="images\logo-ufgd.jpg" width=200 height=100></img>
+	</body>
+</html>
